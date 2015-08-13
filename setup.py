@@ -1,13 +1,23 @@
 #! /usr/bin/env python
+import codecs
+import sys
 from distutils.core import setup
 
 __version__ = '0.1'
+
+
+if sys.version_info >= (3, ):
+    with codecs.open('README.rst', encoding='utf-8') as f:
+        long_description = f.read()
+else:
+    with open('README.rst') as f:
+        long_description = f.read()
 
 setup(
     name="text-unidecode",
     version=__version__,
     description="The most basic Text::Unidecode port",
-    long_description = open('README.rst').read(),
+    long_description = long_description,
     license = 'Artistic License',
     author='Mikhail Korobov',
     author_email='kmike84@gmail.com',
