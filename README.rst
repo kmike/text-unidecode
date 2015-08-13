@@ -35,5 +35,5 @@ Usage
 
     >>> from text_unidecode import unidecode
     >>> unidecode(u'какой-то текст')
-    u'kakoi-to tiekst'
+    u'kakoi-to tekst'
 
