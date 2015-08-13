@@ -1,9 +1,9 @@
 #! /usr/bin/env python
 import codecs
 import sys
-from distutils.core import setup
+from setuptools import setup
 
-__version__ = '0.1'
+__version__ = '1.0'
 
 
 if sys.version_info >= (3, ):
@@ -29,7 +29,7 @@ setup(
     package_data={'text_unidecode': ['data.bin']},
 
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Artistic License',
         'Programming Language :: Python',
