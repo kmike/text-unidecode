@@ -17,16 +17,16 @@ setup(
     name="text-unidecode",
     version=__version__,
     description="The most basic Text::Unidecode port",
-    long_description = long_description,
-    license = 'Artistic License',
+    long_description=long_description,
+    license='Artistic License',
     author='Mikhail Korobov',
     author_email='kmike84@gmail.com',
 
-    url = 'https://github.com/kmike/text-unidecode/',
+    url='https://github.com/kmike/text-unidecode/',
 
-    package_dir = {'': 'src'},
-    packages = ['text_unidecode'],
-    package_data = {'text_unidecode': ['data.bin']},
+    package_dir={'': 'src'},
+    packages=['text_unidecode'],
+    package_data={'text_unidecode': ['data.bin']},
 
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -39,6 +39,7 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Topic :: Software Development :: Libraries :: Python Modules',

@@ -6,6 +6,7 @@ _data_path = os.path.join(os.path.dirname(__file__), 'data.bin')
 with open(_data_path, 'rb') as f:
     _replaces = f.read().decode('utf8').split('\x00')
 
+
 def unidecode(txt):
     chars = []
     for ch in txt:

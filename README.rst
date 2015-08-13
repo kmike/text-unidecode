@@ -1,6 +1,10 @@
 Text-Unidecode
 ==============
 
+.. image:: https://img.shields.io/travis/kmike/text-unidecode/master.svg
+   :target: https://travis-ci.org/kmike/text-unidecode
+   :alt: Build Status
+
 text-unidecode is the most basic port of the
 `Text::Unidecode <http://search.cpan.org/~sburke/Text-Unidecode-0.04/lib/Text/Unidecode.pm>`_
 Perl library.
