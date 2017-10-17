@@ -1,4 +1,2 @@
-include README.rst
 include _dump.pl
-include src/text_unicode/data.bin
 include test_unidecode.py
