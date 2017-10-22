@@ -1,4 +1,5 @@
 language: python
+cache: pip
 python: 3.4
 sudo: false
 env:
@@ -12,6 +13,3 @@ env:
 install:
  - pip install -U tox
 script: tox
-cache:
-  directories:
-    - $HOME/.cache/pip
