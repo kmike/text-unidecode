@@ -3,7 +3,7 @@ import codecs
 import sys
 from setuptools import setup
 
-__version__ = '1.1'
+__version__ = '1.2'
 
 
 if sys.version_info >= (3, ):
