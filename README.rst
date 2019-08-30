@@ -41,4 +41,4 @@ Usage
 
     >>> from text_unidecode import unidecode
     >>> unidecode(u'какой-то текст')
-    u'kakoi-to tekst'
+    'kakoi-to tekst'
