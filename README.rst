@@ -21,7 +21,7 @@ You can redistribute it and/or modify this port under the terms of either:
 If you're OK with GPL-only, use unidecode_ (it has better memory usage and
 better transliteration quality).
 
-``text-unidecode`` supports Python 2.7 and 3.3+.
+``text-unidecode`` supports Python 2.7 and 3.4+.
 
 .. _unidecode: https://pypi.python.org/pypi/Unidecode/
 .. _isounidecode: https://pypi.python.org/pypi/isounidecode/
