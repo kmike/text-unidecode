@@ -18,7 +18,7 @@ setup(
     version=__version__,
     description="The most basic Text::Unidecode port",
     long_description=long_description,
-    license='Artistic License',
+    license='Artistic-1.0-Perl OR GPL-2.0-or-later',
     author='Mikhail Korobov',
     author_email='kmike84@gmail.com',
 
